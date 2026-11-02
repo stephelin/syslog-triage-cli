@@ -14,8 +14,8 @@ In production environments, daily service logs regularly scale beyond 10–15 GB
 ## Usage
 bash
 
-Execute triage against a target log
+Execute triage against a target log:
 python3 src/triage.py /var/log/syslog
 
-View generated incident summary
+View generated incident summary:
 cat incident_report.txt
